@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Cadastro de Produtos</h1>
+    </header>
+
+    <div class="container-form">
+
+
+            <form action="#" id="form-produtos">
+                <div class="campos">
+                    <label for="campoImg">Imagem:</label>
+                    <input type="url" name="campoImg" id="campoImg" placeholder="Link da imagem" value="" required>
+                </div>
+                <div class="campos">
+                    <label for="campoProduto">Produto:</label>
+                    <input type="text" name="campoProduto" id="campoProduto" placeholder="Ex: Geladeira" value="" required>
+                </div>
+                <div class="campos">
+                    <label for="campoMarca">Marca:</label>
+                    <input type="text" name="campoMarca" id="campoMarca" placeholder="Ex: Brastemp" value="" required>
+                </div>
+                <div class="campos">
+                    <label for="campoPreco">Preço:</label>
+                    <input type="number" name="campoPreco" id="campoPreco" step="0.01" min="0" placeholder="R$ 2870.00" value="" title="Insira o valor">
+                </div>
+                <div class="campos">
+                   
+                    <label for="campoQuantidade">Quantidade:</label>
+                    <input type="number" name="campoQuantidade" id="campoQuantidade" placeholder="280" value="" title="Produto no estoque" required>
+    
+                </div>
+               
+                <button type="submit">ENVIAR</button>
+            </form>
+
+            <div class="container">
+
+                <!-- <div class="card-produtos">
+                    <img src="https://images-americanas.b2w.io/produtos/01/00/img/4533174/8/4533174812_1GG.jpg" class="img-produto">
+                    <h3 class="nome-produto">Smartphone Galaxy a3</h3>
+                    <p class="marca">Marca: Samsung</p>
+                    <p class="quantidade">Quantidade estoque: 1.500</p>
+                    <p class="preco">Preço unitário: R$ 258,00</p>
+                    <p class="precototal">Total: R$ 2.850,87</p>
+                </div> -->
+                
+                
+            </div>
+        
+    </div>
+
+   
+
+    <script src="js/ex.js"></script>
+
+</body>
+
+</html>
